@@ -12,12 +12,12 @@ import org.slf4j.LoggerFactory;
 
 import com.aliyun.openservices.oss.OSSClient;
 import com.aliyun.openservices.oss.model.Bucket;
-import com.qikemi.packages.alibaba.aliyun.oss.BucketService;
-import com.qikemi.packages.alibaba.aliyun.oss.OSSClientFactory;
-import com.qikemi.packages.alibaba.aliyun.oss.properties.OSSClientProperties;
-import com.qikemi.packages.baidu.ueditor.upload.AsynUploaderThreader;
-import com.qikemi.packages.baidu.ueditor.upload.SynUploader;
-import com.qikemi.packages.utils.SystemUtil;
+import cn.xiexianbin.packages.alibaba.aliyun.oss.BucketService;
+import cn.xiexianbin.packages.alibaba.aliyun.oss.OSSClientFactory;
+import cn.xiexianbin.packages.alibaba.aliyun.oss.properties.OSSClientProperties;
+import cn.xiexianbin.packages.baidu.ueditor.upload.AsynUploaderThreader;
+import cn.xiexianbin.packages.baidu.ueditor.upload.SynUploader;
+import cn.xiexianbin.packages.utils.SystemUtil;
 
 /**
  * 同步上传文件到阿里云OSS<br>

@@ -6,9 +6,9 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>ALL demo </title>
-	<script type="text/javascript" charset="utf-8" src="<%=request.getContextPath()%>/common/ueditor1_4_3-utf8-jsp/ueditor.config.js"></script>
-	<script type="text/javascript" charset="utf-8" src="<%=request.getContextPath()%>/common/ueditor1_4_3-utf8-jsp/ueditor.all.js"></script>
-	<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/common/ueditor1_4_3-utf8-jsp/themes/default/css/ueditor.css" />
+	<script type="text/javascript" charset="utf-8" src="<%=request.getContextPath()%>/ueditor1_4_3-utf8-jsp/ueditor.config.js"></script>
+	<script type="text/javascript" charset="utf-8" src="<%=request.getContextPath()%>/ueditor1_4_3-utf8-jsp/ueditor.all.js"></script>
+	<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/ueditor1_4_3-utf8-jsp/themes/default/css/ueditor.css" />
 </head>
 	<body>
 		<form name="myForm" method="post"action="upload">

@@ -4,4 +4,5 @@ dependencies {
 	compile libraries.commons
 	compile libraries.json
 	compile libraries.log4j
+	compile libraries.tests
 }

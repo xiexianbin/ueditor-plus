@@ -10,6 +10,8 @@ dependencies {
     compile libraries.spring
     compile libraries.springboot
     compile libraries.jackson
+    compile libraries.log4j
+    compile libraries.tests
 
     compile project(":source:ueditor-spring-jar")
 }

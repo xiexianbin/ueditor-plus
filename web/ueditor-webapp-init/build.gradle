@@ -8,6 +8,7 @@ apply plugin: 'spring-boot'
 
 dependencies {
 	compile libraries.log4j
+	compile libraries.tests
 
     compile project(":source:ueditor-jar")
 }
