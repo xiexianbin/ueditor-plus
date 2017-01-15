@@ -1,0 +1,7 @@
+description = "Package for ueditor-spring jar"
+dependencies {
+	compile libraries.aliyunopenservices
+	compile libraries.commons
+	compile libraries.json
+	compile libraries.log4j
+}
