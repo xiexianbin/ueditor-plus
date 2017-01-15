@@ -1,4 +1,4 @@
-package com.qikemi.packages.baidu.ueditor.upload;
+package cn.xiexianbin.packages.baidu.ueditor.upload;
 
 import javax.servlet.http.HttpServletRequest;
 

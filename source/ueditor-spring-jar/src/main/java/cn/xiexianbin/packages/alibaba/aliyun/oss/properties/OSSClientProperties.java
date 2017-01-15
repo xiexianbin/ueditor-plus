@@ -1,4 +1,4 @@
-package com.qikemi.packages.alibaba.aliyun.oss.properties;
+package cn.xiexianbin.packages.alibaba.aliyun.oss.properties;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -7,8 +7,8 @@ import java.util.Properties;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.qikemi.packages.baidu.ueditor.upload.AsynUploaderThreader;
-import com.qikemi.packages.utils.SystemUtil;
+import cn.xiexianbin.packages.baidu.ueditor.upload.AsynUploaderThreader;
+import cn.xiexianbin.packages.utils.SystemUtil;
 
 public class OSSClientProperties {
 

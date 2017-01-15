@@ -19,8 +19,8 @@ public class FileType {
 	
 	/**
 	 * 根据给定的文件名,获取其后缀信息
-	 * @param filename
-	 * @return
+	 * @param filename 文件名称
+	 * @return String filename
 	 */
 	public static String getSuffixByFilename ( String filename ) {
 		

@@ -14,11 +14,11 @@ import com.baidu.ueditor.define.AppInfo;
 import com.baidu.ueditor.define.BaseState;
 import com.baidu.ueditor.define.MultiState;
 import com.baidu.ueditor.define.State;
-import com.qikemi.packages.alibaba.aliyun.oss.BucketService;
-import com.qikemi.packages.alibaba.aliyun.oss.OSSClientFactory;
-import com.qikemi.packages.alibaba.aliyun.oss.ObjectService;
-import com.qikemi.packages.alibaba.aliyun.oss.properties.OSSClientProperties;
-import com.qikemi.packages.utils.SystemUtil;
+import cn.xiexianbin.packages.alibaba.aliyun.oss.BucketService;
+import cn.xiexianbin.packages.alibaba.aliyun.oss.OSSClientFactory;
+import cn.xiexianbin.packages.alibaba.aliyun.oss.ObjectService;
+import cn.xiexianbin.packages.alibaba.aliyun.oss.properties.OSSClientProperties;
+import cn.xiexianbin.packages.utils.SystemUtil;
 
 public class FileManager {
 

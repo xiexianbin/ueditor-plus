@@ -1,4 +1,4 @@
-package com.qikemi.packages.utils;
+package cn.xiexianbin.packages.utils;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;

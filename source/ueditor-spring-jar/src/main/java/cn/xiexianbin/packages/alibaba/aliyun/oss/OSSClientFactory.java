@@ -1,11 +1,11 @@
-package com.qikemi.packages.alibaba.aliyun.oss;
+package cn.xiexianbin.packages.alibaba.aliyun.oss;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.aliyun.openservices.oss.OSSClient;
-import com.qikemi.packages.alibaba.aliyun.oss.properties.OSSClientProperties;
-import com.qikemi.packages.baidu.ueditor.upload.AsynUploaderThreader;
+import cn.xiexianbin.packages.alibaba.aliyun.oss.properties.OSSClientProperties;
+import cn.xiexianbin.packages.baidu.ueditor.upload.AsynUploaderThreader;
 
 /**
  * OSSClient是OSS服务的Java客户端，它为调用者提供了一系列的方法，用于和OSS服务进行交互<br>

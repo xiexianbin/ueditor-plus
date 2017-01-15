@@ -1,4 +1,4 @@
-package com.qikemi.packages.baidu.ueditor.upload;
+package cn.xiexianbin.packages.baidu.ueditor.upload;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -13,9 +13,9 @@ import org.json.JSONObject;
 
 import com.aliyun.openservices.oss.OSSClient;
 import com.aliyun.openservices.oss.model.PutObjectResult;
-import com.qikemi.packages.alibaba.aliyun.oss.ObjectService;
-import com.qikemi.packages.alibaba.aliyun.oss.properties.OSSClientProperties;
-import com.qikemi.packages.utils.SystemUtil;
+import cn.xiexianbin.packages.alibaba.aliyun.oss.ObjectService;
+import cn.xiexianbin.packages.alibaba.aliyun.oss.properties.OSSClientProperties;
+import cn.xiexianbin.packages.utils.SystemUtil;
 
 /**
  * 同步上传文件到阿里云OSS<br>

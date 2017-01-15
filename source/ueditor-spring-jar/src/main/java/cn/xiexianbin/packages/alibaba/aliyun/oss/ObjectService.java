@@ -1,4 +1,4 @@
-package com.qikemi.packages.alibaba.aliyun.oss;
+package cn.xiexianbin.packages.alibaba.aliyun.oss;
 
 import java.io.File;
 import java.io.FileInputStream;
