@@ -1,0 +1,15 @@
+description = "ueditor-for-all-cdn Web Application Initializer"
+
+apply plugin: 'java'
+apply plugin: 'groovy'
+apply plugin: 'idea'
+apply plugin: 'war'
+apply plugin: 'spring-boot'
+
+dependencies {
+    compile libraries.spring
+    compile libraries.springboot
+    compile libraries.jackson
+
+    compile project(":source:ueditor-spring")
+}

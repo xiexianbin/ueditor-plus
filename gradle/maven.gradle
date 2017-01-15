@@ -1,0 +1,91 @@
+def generatePom() {
+    def pom = pom {
+        project {
+            url "$projectUrl"
+            inceptionYear project.projectInceptionYear
+            name project.name
+            description project.name
+
+            issueManagement {
+                system project.projectIssueSystem
+                url project.projectIssueUrl
+            }
+
+            scm {
+                url project.projectScmUrl
+                connection project.projectScmUrl
+                developerConnection project.projectScmUrl
+            }
+
+            licenses {
+                license {
+                    name project.projectLicenseName
+                    url project.projectLicenseUrl
+                    distribution project.projectLicenseDistribution
+                }
+            }
+
+            developers {
+                developer {
+                    id "XieXianbin"
+                    name "Xie Xianbin"
+                }
+            }
+
+            contributors {
+                contributor {
+                    name "Xie Xianbin"
+                    email "me@xiexianbin.cn"
+                }
+            }
+
+
+            mailingLists {
+                mailingList {
+                    name ""
+                    subscribe ""
+                    unsubscribe ""
+                    post ""
+                    archive ""
+                }
+            }
+
+            repositories {
+                repository {
+                    id "spring-milestones"
+                    url "https://repo.spring.io/milestone"
+                    releases {
+                        enabled true
+                    }
+                }
+            }
+        }
+
+    }.whenConfigured { pom ->
+        println "POM is fully configured for $project.name"
+    }
+}
+
+uploadArchives {
+    doFirst {
+        repositories.mavenDeployer.pom = generatePom()
+    }
+
+    repositories.mavenDeployer {
+        configuration = configurations.archives
+        beforeDeployment { MavenDeployment deployment -> signing.signPom(deployment) }
+
+        if (publishReleases) {
+            repository(url: "$sonatypeRepositoryUrl") {
+                authentication(userName: sonatypeUsername, password: sonatypePassword);
+            }
+        }
+
+        if (publishSnapshots) {
+            snapshotRepository(url: "$sonatypeSnapshotsRepositoryUrl") {
+                authentication(userName: sonatypeUsername, password: sonatypePassword);
+            }
+        }
+    }
+}
+

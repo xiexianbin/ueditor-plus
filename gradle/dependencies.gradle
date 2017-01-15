@@ -1,0 +1,278 @@
+ext.libraries = [
+        aliyunopenservices      : [
+                dependencies.create("com.aliyun.openservices:aliyun-openservices:$aliyunOpenservicesVersion") {
+                	exclude(group: "commons-logging", module: "commons-logging")
+                    force = true
+                }
+        ],
+        json                    : [
+                dependencies.create("org.json:json:$jsonVersion") {
+                    force = true
+                }
+        ],
+        commons                 : [
+                dependencies.create("commons-io:commons-io:$commonsIoVersion") {
+                    force = true
+                },
+                dependencies.create("commons-codec:commons-codec:$commonsCodecVersion") {
+                    force = true
+                },
+                dependencies.create("commons-fileupload:commons-fileupload:$commonsFileuploadVersion") {
+                    force = true
+                },
+                dependencies.create("org.apache.commons:commons-lang3:$commonsLangVersion") {
+                    force = true
+                }
+        ],
+        javax                   : [
+                dependencies.create("javax.servlet:javax.servlet-api:$javaxServletVersion") {
+                    force = true
+                }
+        ],
+        findbugscontrib         : dependencies.create("com.mebigfatguy.fb-contrib:fb-contrib:$findbugsContribVersion"),
+        findbugs                : dependencies.create("com.google.code.findbugs:findbugs:$findbugsVersion") {
+            force = true
+        },
+        findbugssec             : dependencies.create("com.h3xstream.findsecbugs:findsecbugs-plugin:$findbugsSecVersion"),
+        groovy                  : [
+                dependencies.create("org.codehaus.groovy:groovy-jsr223:$groovyVersion") {
+                    force = true
+                },
+                dependencies.create("org.codehaus.groovy:groovy-console:$groovyVersion") {
+                    force = true
+                },
+                dependencies.create("org.codehaus.groovy:groovy-groovysh:$groovyVersion") {
+                    force = true
+                }
+        ],
+        javax                   : [
+                dependencies.create("javax.servlet:javax.servlet-api:$javaxServletVersion") {
+                    force = true
+                }
+        ],
+        javaximpl               : [
+                dependencies.create("javax.servlet:jstl:$javaxJstlVersion"),
+                dependencies.create("javax.transaction:jta:$jtaVersion")
+        ],
+        jackson                 : [
+                dependencies.create("com.fasterxml.jackson.core:jackson-databind:$jacksonDatabindVersion") {
+                    exclude(group: "com.fasterxml.jackson.core", module: "jackson-annotations")
+                    force = true
+                },
+                dependencies.create("com.fasterxml.jackson.datatype:jackson-datatype-guava:$jacksonDatabindVersion") {
+                    exclude(group: "com.google.guava", module: "guava")
+                    exclude(group: "com.fasterxml.jackson.core", module: "jackson-annotations")
+                    force = true
+                },
+                dependencies.create("com.fasterxml.jackson.core:jackson-annotations:$jacksonDatabindVersion") {
+                    force = true
+                },
+                dependencies.create("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:$jacksonDatabindVersion") {
+                    exclude(group: "com.fasterxml.jackson.core", module: "jackson-annotations")
+                    force = true
+                },
+                dependencies.create("com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:$jacksonDatabindVersion") {
+                    exclude(group: "org.yaml", module: "snakeyaml")
+                    exclude(group: "com.fasterxml.jackson.core", module: "jackson-annotations")
+                    force = true
+                }
+        ],
+        tests                   : [
+                dependencies.create("junit:junit:$junitVersion") {
+                    force = true
+                },
+                dependencies.create("org.springframework.boot:spring-boot-starter-test:$springBootVersion") {
+                    exclude(group: "org.hamcrest", module: "hamcrest-core")
+                    exclude(group: "org.slf4j", module: "slf4j-api")
+                    exclude(group: "org.jboss.logging", module: "jboss-logging")
+                    exclude(group: "com.fasterxml", module: "classmate")
+                    exclude(group: "net.minidev", module: "json-smart")
+                    exclude(group: "org.hibernate", module: "hibernate-validator")
+                    exclude(group: "org.objenesis", module: "objenesis")
+                    exclude(group: "org.springframework", module: "spring-test")
+                    exclude(group: "org.springframework", module: "spring-beans")
+                    exclude(group: "org.springframework", module: "spring-context")
+                    exclude(group: "org.springframework", module: "spring-context-support")
+                    exclude(group: "org.springframework", module: "spring-core")
+                    exclude(group: "org.springframework", module: "spring-web")
+                    exclude(group: "org.springframework", module: "spring-webmvc")
+                    exclude(group: "org.skyscreamer", module: "jsonassert")
+                    exclude(group: "org.ow2.asm", module: "asm")
+                    force = true
+                },
+                dependencies.create("org.springframework:spring-test:$springVersion"),
+                dependencies.create("org.json:json:$jsonVersion") {
+                    force = true
+                }
+        ],
+        log4j                   : [
+                dependencies.create("org.apache.logging.log4j:log4j-api:$log4jVersion") {
+                    force = true
+                },
+                dependencies.create("org.apache.logging.log4j:log4j-core:$log4jVersion") {
+                    force = true
+                },
+                dependencies.create("org.apache.logging.log4j:log4j-jcl:$log4jVersion") {
+                    force = true
+                },
+                dependencies.create("org.apache.logging.log4j:log4j-slf4j-impl:$log4jVersion") {
+                    exclude(group: "org.slf4j", module: "slf4j-api")
+                    force = true
+                },
+                dependencies.create("org.apache.logging.log4j:log4j-web:$log4jVersion"),
+                dependencies.create("org.slf4j:slf4j-api:$slf4jVersion"),
+                dependencies.create("org.slf4j:jul-to-slf4j:$slf4jVersion")
+        ],
+        springbootconfigmetadata: [
+                dependencies.create("org.springframework.boot:spring-boot-configuration-processor:$springBootVersion") {
+                    exclude(group: "org.springframework", module: "spring-web")
+                    exclude(group: "org.springframework", module: "spring-webmvc")
+                    exclude(group: "org.springframework", module: "spring-core")
+                    exclude(group: "org.springframework", module: "spring-context")
+                    exclude(group: "org.json", module: "json")
+                },
+                dependencies.create("org.json:json:$jsonVersion") {
+                    force = true
+                }
+        ],
+        springboot              : [
+                dependencies.create("org.springframework.boot:spring-boot-starter-websocket:$springBootVersion") {
+                    exclude(group: "org.slf4j", module: "slf4j-api")
+                    exclude(group: "org.slf4j", module: "log4j-over-slf4j")
+                    exclude(group: "com.fasterxml.jackson.core", module: "jackson-annotations")
+                    exclude(group: "com.fasterxml.jackson.core", module: "jackson-databind")
+                    exclude(group: "org.jboss.logging", module: "jboss-logging")
+                    exclude(group: "org.springframework", module: "spring-web")
+                    exclude(group: "org.springframework", module: "spring-core")
+                    exclude(group: "org.springframework", module: "spring-webmvc")
+                    exclude(group: "org.springframework", module: "spring-context")
+                    exclude(group: "org.springframework.boot", module: "spring-boot-starter-logging")
+                    exclude(group: "org.springframework.boot", module: "spring-boot-starter-actuator")
+                    exclude(group: "com.fasterxml", module: "classmate")
+                    exclude(group: "org.hibernate", module: "hibernate-validator")
+                    force = true
+                },
+                dependencies.create("org.springframework.boot:spring-boot-starter-mail:$springBootVersion") {
+                    exclude(group: "org.springframework.boot", module: "spring-boot-starter-logging")
+                    force = true
+                },
+                dependencies.create("org.springframework.boot:spring-boot-starter-web:$springBootVersion") {
+                    exclude(group: "org.slf4j", module: "slf4j-api")
+                    exclude(group: "org.slf4j", module: "log4j-over-slf4j")
+                    exclude(group: "org.jboss.logging", module: "jboss-logging")
+                    exclude(group: "com.fasterxml", module: "classmate")
+                    exclude(group: "org.hibernate", module: "hibernate-validator")
+                    exclude(group: "org.hibernate", module: "hibernate-core")
+                    exclude(group: "org.hibernate", module: "hibernate-entitymanager")
+                    exclude(group: "org.springframework", module: "spring-web")
+                    exclude(group: "org.springframework", module: "spring-core")
+                    exclude(group: "org.springframework", module: "spring-webmvc")
+                    exclude(group: "org.springframework", module: "spring-context")
+                    exclude(group: "com.fasterxml.jackson.core", module: "jackson-annotations")
+                    exclude(group: "com.fasterxml.jackson.core", module: "jackson-databind")
+                    exclude(group: "org.springframework.boot", module: "spring-boot-starter-logging")
+                    exclude(group: "org.springframework.boot", module: "spring-boot-starter-actuator")
+                    exclude(group: "org.slf4j", module: "jcl-over-slf4j")
+                    exclude(group: "org.slf4j", module: "jul-to-slf4j")
+                    force = true
+                },
+                dependencies.create("org.springframework.boot:spring-boot-autoconfigure:$springBootVersion") {
+                    exclude(group: "org.springframework.boot", module: "spring-boot-starter-actuator")
+                    exclude(group: "org.springframework", module: "spring-web")
+                    exclude(group: "org.springframework", module: "spring-webmvc")
+                    exclude(group: "org.springframework", module: "spring-core")
+                    exclude(group: "org.springframework", module: "spring-context")
+                    exclude(group: "org.hibernate", module: "hibernate-validator")
+                    exclude(group: "org.hibernate", module: "hibernate-core")
+                    exclude(group: "org.hibernate", module: "hibernate-entitymanager")
+                    exclude(group: "org.slf4j", module: "jcl-over-slf4j")
+                    exclude(group: "org.slf4j", module: "jul-to-slf4j")
+                    force = true
+                },
+                dependencies.create("org.springframework.boot:spring-boot:$springBootVersion") {
+                    exclude(group: "org.hibernate", module: "hibernate-validator")
+                    exclude(group: "org.hibernate", module: "hibernate-core")
+                    exclude(group: "org.hibernate", module: "hibernate-entitymanager")
+                    exclude(group: "org.springframework", module: "spring-web")
+                    exclude(group: "org.springframework", module: "spring-webmvc")
+                    exclude(group: "org.springframework", module: "spring-core")
+                    exclude(group: "org.springframework", module: "spring-context")
+                    exclude(group: "org.slf4j", module: "slf4j-api")
+                    force = true
+                },
+                dependencies.create("org.springframework.boot:spring-boot-devtools:$springBootVersion") {
+                    exclude(group: "org.hibernate", module: "hibernate-validator")
+                    exclude(group: "org.hibernate", module: "hibernate-core")
+                    exclude(group: "org.hibernate", module: "hibernate-entitymanager")
+                    exclude(group: "org.springframework", module: "spring-web")
+                    exclude(group: "org.springframework", module: "spring-webmvc")
+                    exclude(group: "org.springframework", module: "spring-core")
+                    exclude(group: "org.springframework", module: "spring-context")
+                    exclude(group: "org.slf4j", module: "slf4j-api")
+                    force = true
+                },
+                dependencies.create("org.springframework.boot:spring-boot-starter-actuator:$springBootVersion") {
+                    exclude(group: "org.springframework.boot", module: "spring-boot-starter-web")
+                    exclude(group: "org.springframework.boot", module: "spring-boot-starter-logging")
+                    exclude(group: "com.fasterxml.jackson.core", module: "jackson-annotations")
+                    exclude(group: "com.fasterxml.jackson.core", module: "jackson-databind")
+                    exclude(group: "org.hibernate", module: "hibernate-validator")
+                    exclude(group: "org.hibernate", module: "hibernate-core")
+                    exclude(group: "org.hibernate", module: "hibernate-entitymanager")
+                    exclude(group: "org.springframework", module: "spring-web")
+                    exclude(group: "org.springframework", module: "spring-webmvc")
+                    exclude(group: "org.springframework", module: "spring-core")
+                    exclude(group: "org.springframework", module: "spring-context")
+                    exclude(group: "org.slf4j", module: "slf4j-api")
+                    force = true
+                },
+                dependencies.create("org.springframework.boot:spring-boot-actuator:$springBootVersion") {
+                    exclude(group: "com.fasterxml.jackson.core", module: "jackson-annotations")
+                    exclude(group: "com.fasterxml.jackson.core", module: "jackson-databind")
+                    exclude(group: "org.springframework", module: "spring-web")
+                    exclude(group: "org.springframework", module: "spring-webmvc")
+                    exclude(group: "org.springframework", module: "spring-core")
+                    exclude(group: "org.springframework", module: "spring-context")
+                    exclude(group: "org.slf4j", module: "slf4j-api")
+
+                    force = true
+                }
+        ],
+        springboottomcat        : [
+                dependencies.create("org.springframework.boot:spring-boot-starter-tomcat:$springBootVersion") {
+                    force = true
+                },
+                dependencies.create("org.apache.tomcat.embed:tomcat-embed-jasper:$springBootTomcatVersion") {
+                    force = true
+                }
+
+        ],
+        springbootjetty         : [
+                dependencies.create("org.springframework.boot:spring-boot-starter-jetty:$springBootVersion") {
+                    force = true
+                }
+        ],
+        springbootundertow      : [
+                dependencies.create("org.springframework.boot:spring-boot-starter-undertow:$springBootVersion") {
+                    force = true
+                }
+        ],
+        spring                  : [
+                dependencies.create("org.springframework:spring-context:$springVersion") {
+                    force = true
+                },
+                dependencies.create("org.springframework:spring-context-support:$springVersion") {
+                    force = true
+                },
+                dependencies.create("org.springframework:spring-core:$springVersion") {
+                    exclude(group: "commons-logging", module: "commons-logging")
+                    force = true
+                },
+                dependencies.create("org.springframework:spring-web:$springVersion") {
+                    force = true
+                },
+                dependencies.create("org.springframework:spring-webmvc:$springVersion") {
+                    force = true
+                }
+        ]
+]

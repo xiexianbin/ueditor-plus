@@ -1,0 +1,16 @@
+
+/*
+  Override the version used by Spring boot.
+  As boot is upgraded, some of these enforcements below
+  may become unnecessary when/if version numbers match.
+ */
+ext["springBootTomcatVersion"] = "8.5.9"
+ext["infinispanVersion"] = "8.2.2.Final"
+ext["springVersion"] = "4.3.5.RELEASE"
+ext["jacksonDatabindVersion"] = "2.8.5"
+
+ext["commons-beanutils.version"] = "1.8.3"
+ext["tomcat.version"] = ext["springBootTomcatVersion"]
+ext["infinispan.version"] = ext["infinispanVersion"]
+ext["spring.version"] = ext["springVersion"]
+

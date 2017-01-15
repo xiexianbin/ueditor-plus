@@ -1,12 +1,37 @@
-*.class
+argfile*
+.classpath
+!/.project
+.project
+.settings
+target
+test-output/
+bin/
+*.ipr
+*.iml
+*.iws
+*.orig
+.idea/
+.DS_Store
+.idea
+overlays/
+pom.xml.versionsBackup
+build.xml
+*.log
+rebel.xml
+**/.checkstyle
+*.log.gz
+node_modules/
+gruntfile.js
+nodejs
+.gradle/
+build/
+MANIFEST.MF
+classes/
+*.bin
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+**/tomcat/
+out
+ajcore.*
+reports
 
-# Package Files #
-*.jar
-*.war
-*.ear
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+*.asc
