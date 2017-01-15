@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "ueditor-spring-jar",
   "version": "1.4.3",
@@ -28,3 +29,35 @@
   "author": "Xie Xianbin",
   "license": "Apache-2.0"
 }
+=======
+{
+  "name": "ueditor-spring",
+  "version": "1.4.3",
+  "description": "ueditor-for-all-cdn ueditor jar",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/XieXianbin/ueditor-for-all-cdn"
+  },
+  "homepage": "http://XieXianbin.github.io/ueditor-for-all-cdn",
+  "keywords": [
+    "ueditor-for-all-cdn",
+    "UEditor",
+    "OSS"
+  ],
+  "engines": {
+    "node": ">=1.4.3 <2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/XieXianbin/ueditor-for-all-cdn/issues"
+  },
+  "contributors": [],
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+  },
+  "author": "Xie Xianbin",
+  "license": "Apache-2.0"
+}
+>>>>>>> 9b93751cd922b72bbbe33e38f426f0c4d3e8fa35
