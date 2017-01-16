@@ -5,8 +5,6 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.qikemi.packages.baidu.ueditor.upload.AsynUploaderThreader;
-
 /**
  * main controller.
  *
@@ -16,7 +14,7 @@ import com.qikemi.packages.baidu.ueditor.upload.AsynUploaderThreader;
 @Controller
 public class IndexController {
 
-	private static final Logger logger = LoggerFactory.getLogger(AsynUploaderThreader.class);
+	private static final Logger logger = LoggerFactory.getLogger(IndexController.class);
 	
     @RequestMapping("/")
     String index() {

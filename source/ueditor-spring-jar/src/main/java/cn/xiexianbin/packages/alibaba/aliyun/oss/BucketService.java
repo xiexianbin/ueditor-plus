@@ -42,8 +42,8 @@ public class BucketService {
 	/**
 	 * 列出用户所有的Bucket<br>
 	 * 
-	 * @param client
-	 * @return buckets
+	 * @param client client
+	 * @return buckets buckets
 	 */
 	public static List<Bucket> list(OSSClient client) {
 		List<Bucket> buckets = client.listBuckets();
@@ -53,8 +53,8 @@ public class BucketService {
 	/**
 	 * 判断Bucket是否存在<br>
 	 * 
-	 * @param client
-	 * @param bucketName
+	 * @param client client
+	 * @param bucketName bucketName
 	 * @return boolean exists
 	 */
 	public static boolean doesBucketExist(OSSClient client, String bucketName) {
@@ -73,8 +73,8 @@ public class BucketService {
 	 * 删除Bucket<br>
 	 * 如果Bucket不为空（Bucket中有Object），则Bucket无法删除，必须清空Bucket后才能成功删除
 	 * 
-	 * @param client
-	 * @param bucketName
+	 * @param client client
+	 * @param bucketName bucketName
 	 */
 	public static void delete(OSSClient client, String bucketName) {
 		client.deleteBucket(bucketName);
@@ -90,8 +90,8 @@ public class BucketService {
 	 * 可以对该bucket中的object进行读操作。<br>
 	 * private: 只有该bucket的创建者才可以访问此Bukcet。其他人禁止对此Bucket做任何操作。<br>
 	 * 
-	 * @param client
-	 * @param bucketName
+	 * @param client client
+	 * @param bucketName bucketName
 	 * @param acl<br>
 	 * 			CannedAccessControlList是枚举类型，包含三个值： Private 、 PublicRead 、 PublicReadWrite ，它们分别对应相关权限
 	 */
