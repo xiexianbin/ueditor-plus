@@ -4,7 +4,6 @@ include "source:ueditor-source-jar"
 include "source:ueditor-for-all-cdn-jar"
 include "source:ueditor-for-all-cdn-spring-jar"
 
-include "web:ueditor-web-common"
 include "web:ueditor-webapp-init"
 include "web:ueditor-springmvc-init"
 

@@ -9,6 +9,5 @@ dependencies {
 	compile libraries.log4j
 	compile libraries.tests
 
-    compile project(":web:ueditor-web-common")
     compile project(":source:ueditor-for-all-cdn-jar")
 }
