@@ -1,0 +1,27 @@
+description = "Package for ueditor source jar"
+
+tasks.withType(GroovyCompile) {
+    groovyOptions.encoding = "MacRoman"
+}
+
+tasks.withType(JavaCompile) {
+	options.encoding = "UTF-8"
+}
+
+javadoc {
+    options{
+        encoding "UTF-8"
+        charSet 'UTF-8'
+        author true
+        version true
+    }
+}
+
+dependencies {
+	compile libraries.commons
+	compile libraries.json
+	compile libraries.log4j
+	compile libraries.tests
+}
+
+
