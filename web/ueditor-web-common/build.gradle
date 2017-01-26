@@ -1,4 +1,4 @@
-description = "ueditor  Web Application common"
+description = "ueditor Web Application common"
 
 apply plugin: 'java'
 apply plugin: 'groovy'

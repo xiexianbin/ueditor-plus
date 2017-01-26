@@ -1,4 +1,4 @@
-description = "ueditor-for-all-cdn Web Application Initializer"
+description = "ueditor-for-all-cdn SpringMVC Web Application Initializer"
 
 apply plugin: 'java'
 apply plugin: 'groovy'
@@ -13,5 +13,6 @@ dependencies {
     compile libraries.log4j
     compile libraries.tests
 
-    compile project(":source:ueditor-spring-jar")
+    compile project(":web:ueditor-web-common")
+    compile project(":source:ueditor-for-all-cdn-spring-jar")
 }

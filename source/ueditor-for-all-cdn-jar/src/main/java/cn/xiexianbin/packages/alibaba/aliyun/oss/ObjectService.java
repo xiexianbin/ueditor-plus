@@ -32,12 +32,12 @@ public class ObjectService {
 	/**
 	 * 上传Object
 	 * 
-	 * @param client
-	 * @param bucketName
-	 * @param key
-	 * @param filePath
+	 * @param client client
+	 * @param bucketName bucketName
+	 * @param key key
+	 * @param filePath filePath
 	 * @return class PutObjectResult
-	 * @throws FileNotFoundException
+	 * @throws FileNotFoundException FileNotFoundException
 	 */
 	public static PutObjectResult putObject(OSSClient client,
 			String bucketName, String key, String filePath)
@@ -65,13 +65,13 @@ public class ObjectService {
 	/**
 	 * 上传Object
 	 * 
-	 * @param client
-	 * @param bucketName
-	 * @param key
-	 * @param content
+	 * @param client client
+	 * @param bucketName bucketName
+	 * @param key key
+	 * @param content content
 	 * @return class PutObjectResult
-	 * @throws NumberFormatException
-	 * @throws IOException
+	 * @throws NumberFormatException NumberFormatException
+	 * @throws IOException IOException
 	 */
 	public static PutObjectResult putObject(OSSClient client,
 			String bucketName, String key, InputStream content)
@@ -96,8 +96,8 @@ public class ObjectService {
 	/**
 	 * 列出Object<br>
 	 * 
-	 * @param client
-	 * @param bucketName
+	 * @param client client
+	 * @param bucketName bucketName
 	 * @param delimiter
 	 *            Delimiter 设置为 “/” 时，返回值就只罗列该文件夹下的文件，可以null
 	 * @param prefix
