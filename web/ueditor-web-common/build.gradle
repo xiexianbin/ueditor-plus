@@ -1,9 +1,0 @@
-description = "ueditor Web Application common"
-
-apply plugin: 'java'
-apply plugin: 'groovy'
-apply plugin: 'idea'
-apply plugin: 'war'
-
-dependencies {
-}
