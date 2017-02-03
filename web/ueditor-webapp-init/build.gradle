@@ -5,9 +5,24 @@ apply plugin: 'groovy'
 apply plugin: 'idea'
 apply plugin: 'war'
 
+sourceSets {
+    main {
+        resources {
+            srcDir "${project.buildDir}/generated-src/main/resources"
+        }
+    }
+}
+
+war {
+    def currentTime = java.time.ZonedDateTime.now()
+    
+    from "${project.buildDir}/generated-src/main/resources", { into "WEB-INF/classes" }
+    enabled = !rootProject.publishReleases && !rootProject.publishSnapshots
+}
+
 dependencies {
+    compile project(":source:ueditor-for-all-cdn-jar")
+
 	compile libraries.log4j
 	compile libraries.tests
-
-    compile project(":source:ueditor-for-all-cdn-jar")
 }

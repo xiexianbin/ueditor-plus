@@ -1,12 +1,12 @@
 {
-  "name": "ueditor-jar",
-  "version": "1.4.3",
+  "name": "ueditor-for-all-cdn-jar",
+  "version": "1.4.3.3",
   "description": "ueditor-for-all-cdn ueditor jar",
   "repository": {
     "type": "git",
     "url": "https://github.com/XieXianbin/ueditor-for-all-cdn"
   },
-  "homepage": "http://XieXianbin.github.io/ueditor-for-all-cdn",
+  "homepage": "http://xiexianbin.github.io/ueditor-for-all-cdn",
   "keywords": [
     "ueditor-for-all-cdn",
     "UEditor",
