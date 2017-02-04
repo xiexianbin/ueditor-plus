@@ -1,27 +1,27 @@
-ueditor-for-all-cdn使用配置
+ueditor-plus使用配置
 =====
 
-## Build [![Build Status](https://travis-ci.org/XieXianbin/ueditor-for-all-cdn.svg?branch=master)](https://travis-ci.org/XieXianbin/ueditor-for-all-cdn)[![Issue Stats](http://www.issuestats.com/github/XieXianbin/ueditor-for-all-cdn/badge/issue)](http://www.issuestats.com/github/XieXianbin/ueditor-for-all-cdn)
+## Build [![Build Status](https://travis-ci.org/XieXianbin/ueditor-plus.svg?branch=master)](https://travis-ci.org/XieXianbin/ueditor-plus)[![Issue Stats](http://www.issuestats.com/github/XieXianbin/ueditor-plus/badge/issue)](http://www.issuestats.com/github/XieXianbin/ueditor-plus)
 
 ## 版本说明
 
-1. ueditor-for-all-cdn-v1.2.1-beta和v1.4。3之前的版本均对应ueditor的官方[v1.4.3版本](https://github.com/fex-team/ueditor/tree/v1.4.3 "ueditor v1.4.3 代码")
+1. ueditor-plus-v1.2.1-beta和v1.4。3之前的版本均对应ueditor的官方[v1.4.3版本](https://github.com/fex-team/ueditor/tree/v1.4.3 "ueditor v1.4.3 代码")
 
-2. ueditor-for-all-cdn-v1.2.1-beta之后版本将于ueditor官方保持一致。即ueditor-for-all-cdn-v1.4.3.1版本对应ueditor的v1.4.3.1版本。
+2. ueditor-plus-v1.2.1-beta之后版本将于ueditor官方保持一致。即ueditor-plus-v1.4.3.1版本对应ueditor的v1.4.3.1版本。
 
 ## Maven
 
 ```
 <dependency>
   <groupId>cn.xiexianbin.ueditor</groupId>
-  <artifactId>ueditor-for-all-cdn</artifactId>
-  <version>1.4.3</version>
+  <artifactId>ueditor-plus</artifactId>
+  <version>1.4.3.3</version>
 </dependency>
 ```
 
 ## 使用
 
-Ueditor 官方使用说明：http://fex.baidu.com/ueditor/#server-jsp，ueditor-for-all-cdn提供两种配置模式：
+Ueditor 官方使用说明：http://fex.baidu.com/ueditor/#server-jsp，ueditor-plus提供两种配置模式：
 
 ### 1. 标准模式：
 
@@ -30,13 +30,13 @@ Ueditor 官方使用说明：http://fex.baidu.com/ueditor/#server-jsp，ueditor-
 
 ### 2. 高级模式：
 
-即启用ueditor-for-all-cdn模式，配置及使用方法如下：
+即启用ueditor-plus模式，配置及使用方法如下：
 
 
 1) 把/src/ueditor1_4_3-utf8-jsp文件下的所有文件拷贝到项目的目录下（该文件来自ueditor官网修改后的版本）。
 
 
-2) 到 https://github.com/XieXianbin/ueditor-for-all-cdn/releases  下载ueditor-for-all-cdn-1.2.0-beta.jar包，与从/src/lib文件夹下的jar包一同拷贝到项目的lib目录下，导入项目。
+2) 到 https://github.com/XieXianbin/ueditor-plus/releases  下载ueditor-plus-1.2.0-beta.jar包，与从/src/lib文件夹下的jar包一同拷贝到项目的lib目录下，导入项目。
 
 
 3) 将/src/OSSKey.properties拷贝到src/main/resources目录下，配置OSSKey.properties文件，修改如下：

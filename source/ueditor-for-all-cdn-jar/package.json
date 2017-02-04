@@ -1,14 +1,14 @@
 {
-  "name": "ueditor-for-all-cdn-jar",
+  "name": "ueditor-plus-jar",
   "version": "1.4.3.3",
-  "description": "ueditor-for-all-cdn ueditor jar",
+  "description": "ueditor-plus ueditor jar",
   "repository": {
     "type": "git",
-    "url": "https://github.com/XieXianbin/ueditor-for-all-cdn"
+    "url": "https://github.com/XieXianbin/ueditor-plus"
   },
-  "homepage": "http://xiexianbin.github.io/ueditor-for-all-cdn",
+  "homepage": "http://xiexianbin.github.io/ueditor-plus",
   "keywords": [
-    "ueditor-for-all-cdn",
+    "ueditor-plus",
     "UEditor",
     "OSS"
   ],
@@ -16,7 +16,7 @@
     "node": ">=1.4.3 <2.0"
   },
   "bugs": {
-    "url": "https://github.com/XieXianbin/ueditor-for-all-cdn/issues"
+    "url": "https://github.com/XieXianbin/ueditor-plus/issues"
   },
   "contributors": [],
   "dependencies": {

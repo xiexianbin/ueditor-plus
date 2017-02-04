@@ -22,7 +22,7 @@ echo -e "Starting with project documentation...\n"
 if [ "$invokeDoc" == true ]; then
 
   echo -e "Copying project documentation over to $HOME/docs-latest...\n"
-  cp -R docs/ueditor-for-all-cdn-documentation $HOME/docs-latest
+  cp -R docs/ueditor-plus-documentation $HOME/docs-latest
 
 fi
 
@@ -52,7 +52,7 @@ if [[ "$invokeJavadoc" == true || "$invokeDoc" == true ]]; then
   git config --global pack.threads "24"
   
   echo -e "Cloning the repository to push documentation...\n"
-  git clone --single-branch --depth 3 --branch gh-pages --quiet https://${GH_TOKEN}@github.com/apereo/XieXianbin/ueditor-for-all-cdn gh-pages > /dev/null
+  git clone --single-branch --depth 3 --branch gh-pages --quiet https://${GH_TOKEN}@github.com/apereo/XieXianbin/ueditor-plus gh-pages > /dev/null
   
   cd gh-pages
   git gc --aggressive --prune=now

@@ -1,4 +1,4 @@
-description = "ueditor-for-all-cdn Web Application Initializer"
+description = "ueditor-plus Web Application Initializer"
 
 apply plugin: 'java'
 apply plugin: 'groovy'
@@ -21,7 +21,7 @@ war {
 }
 
 dependencies {
-    compile project(":source:ueditor-for-all-cdn-jar")
+    compile project(":source:ueditor-plus-jar")
 
 	compile libraries.log4j
 	compile libraries.tests
