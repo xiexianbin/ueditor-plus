@@ -1,5 +1,0 @@
-description = "UEditor for all CDN Documentation"
-
-javadoc {
-    enabled false
-}

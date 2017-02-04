@@ -1,10 +1,11 @@
-rootProject.name = "ueditor-for-all-cdn"
+rootProject.name = "ueditor-plus"
 
-include "source:ueditor-source-jar"
-include "source:ueditor-for-all-cdn-jar"
-include "source:ueditor-for-all-cdn-spring-jar"
+include "source:ueditor-official"
+include "source:ueditor-plus"
+include "source:ueditor-plus-for-spring"
 
-include "web:ueditor-webapp-init"
-include "web:ueditor-springmvc-init"
+include "web:ueditor-original-webapp"
+include "web:ueditor-plus-springmvc"
+include "web:ueditor-plus-webapp"
 
-include "docs:ueditor-for-all-cdn-documentation"
+include "docs:ueditor-plus-documentation"

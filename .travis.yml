@@ -3,7 +3,7 @@
 # Generate the OAUTH-TOKEN at https://github.com/settings/applications
 # Install travis: gem install travis
 # Login to travis: travis login
-# Encrypt the token: travis encrypt VAR_NAME=[OAUTH-TOKEN] -r XieXianbin/ueditor-for-all-cdn --add env.global
+# Encrypt the token: travis encrypt VAR_NAME=[OAUTH-TOKEN] -r XieXianbin/ueditor-plus --add env.global
 #
 
 language: java

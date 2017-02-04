@@ -1,0 +1,28 @@
+description = "ueditor-original Web Application Initializer"
+
+apply plugin: 'java'
+apply plugin: 'groovy'
+apply plugin: 'idea'
+apply plugin: 'war'
+
+sourceSets {
+    main {
+        resources {
+            srcDir "${project.buildDir}/generated-src/main/resources"
+        }
+    }
+}
+
+war {
+    def currentTime = java.time.ZonedDateTime.now()
+    
+    from "${project.buildDir}/generated-src/main/resources", { into "WEB-INF/classes" }
+    enabled = !rootProject.publishReleases && !rootProject.publishSnapshots
+}
+
+dependencies {
+    compile project(":source:ueditor-official")
+
+    compile libraries.log4j
+    compile libraries.tests
+}

@@ -1,0 +1,30 @@
+{
+  "name": "ueditor-official",
+  "version": "1.4.3",
+  "description": "ueditor official source jar",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/XieXianbin/ueditor-plus"
+  },
+  "homepage": "http://XieXianbin.github.io/ueditor-plus",
+  "keywords": [
+    "ueditor-plus",
+    "UEditor",
+    "OSS"
+  ],
+  "engines": {
+    "node": ">=1.4.3 <2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/XieXianbin/ueditor-plus/issues"
+  },
+  "contributors": [],
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+  },
+  "author": "Xie Xianbin",
+  "license": "Apache-2.0"
+}

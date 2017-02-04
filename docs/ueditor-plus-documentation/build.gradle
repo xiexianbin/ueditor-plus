@@ -1,0 +1,5 @@
+description = "ueditor-plus for all CDN Documentation"
+
+javadoc {
+    enabled false
+}
