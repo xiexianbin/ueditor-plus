@@ -1,11 +1,12 @@
-rootProject.name = "ueditor-plus"
+rootProject.name = "ueditor-plus-server"
 
 include "source:ueditor-official"
-include "source:ueditor-plus"
-include "source:ueditor-plus-for-spring"
+//include "source:ueditor-plus"
+//include "source:ueditor-plus-for-spring"
 
-include "web:ueditor-original-webapp"
-include "web:ueditor-plus-springmvc"
-include "web:ueditor-plus-webapp"
+//include "web:ueditor-original-webapp"
+//include "web:ueditor-plus-springmvc"
+//include "web:ueditor-plus-webapp"
 
-include "docs:ueditor-plus-documentation"
+//include "docs:ueditor-plus-documentation"
+

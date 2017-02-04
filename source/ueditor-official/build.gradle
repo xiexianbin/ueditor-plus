@@ -11,7 +11,7 @@ tasks.withType(JavaCompile) {
 javadoc {
     options{
         encoding "UTF-8"
-        charSet 'UTF-8'
+        charSet "UTF-8"
         author true
         version true
     }
@@ -19,6 +19,7 @@ javadoc {
 
 dependencies {
     compile libraries.commons
+    compile libraries.javax
     compile libraries.json
     compile libraries.log4j
     compile libraries.tests
