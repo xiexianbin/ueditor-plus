@@ -26,3 +26,4 @@ dependencies {
     compile libraries.log4j
     compile libraries.tests
 }
+

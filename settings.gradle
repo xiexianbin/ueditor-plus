@@ -9,3 +9,4 @@ include "web:ueditor-plus-springmvc"
 include "web:ueditor-plus-webapp"
 
 include "docs:ueditor-plus-documentation"
+
