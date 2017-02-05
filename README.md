@@ -1,12 +1,13 @@
 ueditor-plus使用配置
 =====
 
-## 
+
 [![License](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/XieXianbin/ueditor-plus/blob/master/LICENSE)
 [![Build Status](https://travis-ci.org/XieXianbin/ueditor-plus.svg?branch=master)](https://travis-ci.org/XieXianbin/ueditor-plus)
 [![Codeship](https://img.shields.io/codeship/1dc68ea0-ddc7-0133-75bb-6a683e002de2/master.svg)](https://app.codeship.com/projects/144506)
 [![GitHub release](https://img.shields.io/github/release/xiexianbin/ueditor.svg)](https://github.com/XieXianbin/ueditor-plus/releases)
 [![Issue Stats](https://img.shields.io/issuestats/p/github/xiexianbin/ueditor-plus.svg)](https://github.com/XieXianbin/ueditor-plus/issues)
+[![Issue Stats](https://img.shields.io/issuestats/i/github/xiexianbin/ueditor-plus.svg)](https://github.com/XieXianbin/ueditor-plus/issues)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/xiexianbin/ueditor-plus.svg)](https://github.com/XieXianbin/ueditor-plus/pulls)
 
 
