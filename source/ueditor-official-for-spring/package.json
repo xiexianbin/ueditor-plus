@@ -1,7 +1,7 @@
 {
-  "name": "ueditor-official",
+  "name": "ueditor-official-for-spring",
   "version": "1.4.3.3",
-  "description": "ueditor official source jar",
+  "description": "ueditor official for spring source jar",
   "repository": {
     "type": "git",
     "url": "https://github.com/XieXianbin/ueditor-plus"
