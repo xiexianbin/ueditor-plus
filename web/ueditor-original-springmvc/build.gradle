@@ -13,5 +13,5 @@ dependencies {
     compile libraries.log4j
     compile libraries.tests
 
-    compile project(":source:ueditor-original-for-spring")
+    compile project(":source:ueditor-official-for-spring")
 }
