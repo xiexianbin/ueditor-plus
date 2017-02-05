@@ -1,7 +1,7 @@
 ueditor-plus使用配置
 =====
 
-## Build [![Build Status](https://travis-ci.org/XieXianbin/ueditor-plus.svg?branch=master)](https://travis-ci.org/XieXianbin/ueditor-plus)[![Issue Stats](http://www.issuestats.com/github/XieXianbin/ueditor-plus/badge/issue)](http://www.issuestats.com/github/XieXianbin/ueditor-plus)
+## Build [![Build Status](https://travis-ci.org/XieXianbin/ueditor-plus.svg?branch=master)](https://travis-ci.org/XieXianbin/ueditor-plus) [![Issue Stats](http://www.issuestats.com/github/XieXianbin/ueditor-plus/badge/pr?style=flat)](http://www.issuestats.com/github/XieXianbin/ueditor-plus/badge/pr?style=flat) [![Issue Stats](http://www.issuestats.com/github/XieXianbin/ueditor-plus/badge/issue?style=flat)](http://www.issuestats.com/github/XieXianbin/ueditor-plus/badge/issue?style=flat)
 
 ## 版本说明
 
