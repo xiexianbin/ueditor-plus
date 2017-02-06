@@ -1,0 +1,17 @@
+description = "ueditor-official SpringMVC Web Application Initializer"
+
+apply plugin: 'java'
+apply plugin: 'groovy'
+apply plugin: 'idea'
+apply plugin: 'war'
+apply plugin: 'org.springframework.boot'
+
+dependencies {
+    compile libraries.spring
+    compile libraries.springboot
+    compile libraries.jackson
+    compile libraries.log4j
+    compile libraries.tests
+
+    compile project(":source:ueditor-official-for-spring")
+}
