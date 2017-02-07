@@ -19,6 +19,6 @@ public class IndexController {
     @RequestMapping("/")
     String index() {
     	logger.debug("into index controller...........");
-        return "index";
+        return "upload.html";
     }
 }
